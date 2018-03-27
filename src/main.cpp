@@ -6,7 +6,7 @@
 #define PWR_ON_PIN PB0
 #define ENA_IN_PIN PB1
 
-#define HOLD_PERIOD 1500 // ms
+#define HOLD_PERIOD 1500 // ms - to hold load in ON state. to avoid ENABLE signal bounce and dropouts (I need 1500 ms for this)
 
 uint32_t now = 0;
 uint32_t last_on = 0;
