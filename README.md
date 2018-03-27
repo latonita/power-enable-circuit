@@ -1,4 +1,4 @@
-# power-enable-circuit
+# power-enable-circuit [![Build Status](https://api.travis-ci.org/latonita/power-enable-circuit.svg?branch=master)](https://travis-ci.org/latonita/power-enable-circuit)
 
 Attiny13-based micro monitoring circuit which turns on power to load when external signal is high.
 Initially it was made on discrete elements, but MCU solution takes less PCB space.
