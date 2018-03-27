@@ -6,8 +6,14 @@ Turns power on instantly until signal is high and holds it on for specified amou
 ```
 #define HOLD_PERIOD 1500 // delay in ms
 ```
-Program: 270 bytes; Data: 12 bytes
-
+## time diagram
 ![Signal analysis](https://raw.githubusercontent.com/latonita/power-enable-circuit/master/pic/analysis.JPG)
 
+## schematic
 ![Circuit schematics](https://raw.githubusercontent.com/latonita/power-enable-circuit/master/pic/schematic.jpg)
+
+## memory usage
+| Device     | Program (.text + .data + .bootloader) | Data (.data + .bss + .noinit) |
+|------------|---------------------------------------|-------------------------------|
+| attiny13   |        216 bytes (21.3% Full)         |      4 bytes (6.3% Full)      |
+| attiny2313 |        236 bytes (11.5% Full)         |      4 bytes (3.1% Full)      |
